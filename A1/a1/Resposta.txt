@@ -1,0 +1,44 @@
+Efetuei a lógica no intelliJ, com o código abaixo.
+Na primeira parte do main, em que está comentada , criei o array com 25 nomes e testei mostrando no terminal junto com seu index.
+Ao adicionar mais 5 nomes ao array não era possível, pois ele foi declarado apenas com 25 índices.
+Então para poder adicionar novos nomes, tive que já deixar criado os índices com strings vazias, para posteriormente adicionar os nomes neles.
+
+É necessário utilizar outro formato de lógica como em listas para adcionar itens em índices que ainda não foram criadas.
+
+Código feito no intelliJ:
+
+
+package a1;
+
+public class Main {
+
+    public static void main(String[] args){
+
+        /*String names[] = {"Luis", "Felipe","Maria " , "Joana " ,"Gabriel " ,"Mariana " ,"Leonardo " ,"Lucas " ,"Izabela " ,"Sabrina " ,"Monica " ,"Eduardo " ,"Gabriela " ,"Adriana " ,"Luciara " ,"Paula " ,"Bruno " ,"Alana " ,"Lorena " ,"Claudio " ,"Regina " ,"Rogerio " ,"Camila " ,"Henrique " ,"Fernando " , };
+        for(int i = 0; i < (names.length) ;i++){
+            System.out.println( (i+1)  );
+            System.out.println(  names[i] );
+        }*/
+
+        String names[] = {"Luis", "Felipe","Maria " , "Joana " ,"Gabriel " ,"Mariana " ,"Leonardo " ,"Lucas " ,"Izabela " ,"Sabrina " ,"Monica " ,"Eduardo " ,"Gabriela " ,"Adriana " ,"Luciara " ,"Paula " ,"Bruno " ,"Alana " ,"Lorena " ,"Claudio " ,"Regina " ,"Rogerio " ,"Camila " ,"Henrique " ,"Fernando " , "", "", "", "", "", "",  };
+        for(int i = 0; i < (names.length) ;i++){
+            System.out.println( (i+1)  );
+            System.out.println(  names[i] );
+        }
+
+
+        names[25] = "Fabiana";
+        names[26] = "Roberto";
+        names[27] = "Diana";
+        names[28] = "Flavio";
+        names[29] = "Eliana";
+
+
+        for(int i = 0; i < (names.length) ;i++){
+            System.out.println( (i+1)  );
+            System.out.println(  names[i] );
+        }
+    }
+
+
+}
