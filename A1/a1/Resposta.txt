@@ -3,7 +3,7 @@ Na primeira parte do main, em que está comentada , criei o array com 25 nomes e
 Ao adicionar mais 5 nomes ao array não era possível, pois ele foi declarado apenas com 25 índices.
 Então para poder adicionar novos nomes, tive que já deixar criado os índices com strings vazias, para posteriormente adicionar os nomes neles.
 
-É necessário utilizar outro formato de lógica como em listas para adcionar itens em índices que ainda não foram criadas.
+É necessário utilizar outro formato de lógica como em listas, para adicionar locais nesse array que ainda não foram criados.
 
 Código feito no intelliJ:
 
